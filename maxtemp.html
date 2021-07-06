@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Basic Bootstrap Template</title>
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
+                            <div class="dropdown-menu">
+                                <a href="maxtemp.html" class="dropdown-item">Max Temperature</a>
+                                <a href="cloudiness.html" class="dropdown-item">Cloudiness</a>
+                                <a href="humidity.html" class="dropdown-item">Humidity</a>
+                                <a href="windspeed.html" class="dropdown-item">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="data.html" class="nav-link">Data</a>
+                        </li>
+                    </ul>
+              </div>   
+        </nav>
+        <div class="container">
+            <span class="tag">Latitude</span>
+            <div class="jumbotron">
+                <h4 class="display-4">Max Temperature</h4>
+                <div class="container">
+                    <div class="col-md-6">
+                        <div class="image-wrapper float-left pr-3">
+                            <img src="images/Fig1.png" class="image-wrapper float-left img-fluid" alt=""/>
+                        </div>
+                        <div class="single-post-content-wrapper p-3">
+                            As expected, the weather becomes significantly warmer as one approaches 
+                            the equator (0 Deg. Latitude).  More interestingly, is the fact that the southern
+                            hemisphere tends to be warmer this time of year than the northern hemisphere.
+                            This may be due to the tilt of the earth at the time of the year this data 
+                            was gathered.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
